@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    font: normal 1em arial ;
+    text-align: justify;
+}
+
+#principal{
+    color: white;
+    background-image: linear-gradient(to right, #0055ff, #0d00ff, #0055ff);
+    text-align: center;
+}
+
+.html{
+    text-align: center;
+    color: #ed1b1b;
+}
+
+.css{
+    color: #0055ff;
+    text-align: center;
+}
+
+.css2{
+    text-align: end;
+    color: #0d00ff;
+}
+
+.html2{
+    text-align: end;
+    color: #f60a0a;
+}

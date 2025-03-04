@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+
+        body{
+            font: normal 1em sans-serif;
+            background-color: gray;
+        }
+
+        a{
+            color: yellow;
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: brown;
+        }
+
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+
+        .especial{
+            color: rgb(255, 0, 51);
+            background-color: black;
+        }
+
+        .especial::after{
+            content: '<';
+        }
+
+        .especial::before{
+            content: '>';
+        }
+
+        .especial:hover{
+            color: blueviolet;
+        }
+
+        .especial:active{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a class="especial" href="hover.html">Hover</a></li>
+        <li><a class="especial" href="pseudoclasse.html">Pseudo-classes</a></li>
+    </ul>
+    
+</body>
+</html>

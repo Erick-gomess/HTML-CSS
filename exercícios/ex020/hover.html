@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+</head>
+<style>
+
+    body{
+        font: normal 1em arial;
+
+    }
+
+    div > p{
+        display: none;
+    }
+
+    div:hover >p{
+        background-color: black;
+        color: white;
+        display: block;
+    }
+
+    div:hover{
+        color: chartreuse;
+    }
+
+</style>
+<body>
+    <h1>Ex de hover</h1>
+    <p>passe o mouse abaixo</p>
+    <div>
+        passe o mouse aqui
+        <p>OI</p>
+    </div>
+    <p>fim ex hover</p>
+    
+</body>
+</html>
